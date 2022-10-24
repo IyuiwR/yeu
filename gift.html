@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gift.css"/>
+    <script src="gift.js"></script>
+    <title>GIFT</title>
+</head>
+<body onload="first_slide()">
+    <div id="first_slide">
+        <p class="s1" id="s11">Yeah, Chúc mừng cậu đã vượt qua</p>
+        <p class="s1">Chừ cậu chọn 1 phần quà cho ngày sinh nhật của mình đi </p>
+        <button id="togift" type="button" onclick="toGift()"> Bấm vào đây đi nè </button>
+    </div>
+    <!-- <div id="first_slide2">
+
+    </div> -->
+    <div class="container">
+        <div class="gift" id="gift1" onclick="showgift(1)">  <img class="gift_img" id="gift_img_1" src="images/rou1.png" alt="">
+            <img class="giftcard "id="giftcard1" src="images/iphone14.jpg">
+        </div>
+        <div class="gift" id="gift2" onclick="showgift(2)">  <img class="gift_img" id="gift_img_2" src="images/rou2.jpg" alt="">
+            <img class="giftcard "id="giftcard2" src="images/mac.jpg">
+        </div>
+        <div class="gift" id="gift3" onclick="showgift(3)">  <img class="gift_img" id="gift_img_3" src="images/rou3.png" alt="">
+            <img class="giftcard "id="giftcard3" src="images/car.jpg">
+        </div>
+        <div class="gift" id="gift4" onclick="showgift(4)">  <img class="gift_img" id="gift_img_4" src="images/rou4.png" alt="">
+            <img class="giftcard "id="giftcard4" src="images/tui.jpg">
+        </div>
+        <div id="tit_g">Chọn một Uyên để nhận quà</div>
+    </div>
+    <div class="container" id="cb">
+        <a id="a_end" href="end.html"> Bấm tiếp vào đây lẹ lên </a>
+    </div>
+
+
+</body>
+</html>
